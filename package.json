@@ -7,8 +7,9 @@
   "jest": {
     "verbose": true,
     "testEnvironment": "node",
-    "testPathIgnorePatterns" : [
-      "/node_modules/", "/test/legacy/"
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/test/legacy/"
     ],
     "testMatch": [
       "**/test/**/*.js"
